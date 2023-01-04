@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "EF.Oracle.Core.Procedure.Generator": {
+      "commandName": "Project",
+      "commandLineArgs": ""
+    }
+  }
+}

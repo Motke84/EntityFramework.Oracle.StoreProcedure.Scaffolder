@@ -10,7 +10,7 @@ It was inspired by DarioN1's [SPTOCore](https://github.com/DarioN1/SPToCore)
 
 ## Installation
 
-Download "output\EF.Oracle.Core.Procedure.Generator.exe" file.
+Download [EF.Oracle.Core.Procedure.Generator.exe](https://github.com/Motke84/EntityFramework.Oracle.StoreProcedure.Scaffolder/tree/main/output) file.
 
 ## Usage
 

@@ -69,7 +69,7 @@ public async Task<List<T>> USP__PRODUCT_GET_Async<T>(DateTime? V_DATE) where T :
             p_V_DATE .Value = V_DATE?? (object)DBNull.Value;
             p_V_DATE .ParameterName = "V_DATE";
             // Processing 
-            string sqlQuery = $@"BEGIN USP__MD_PRODUCT_GET(:V_DATE); END;";
+            string sqlQuery = $@"BEGIN USP__PRODUCT_GET(:V_DATE); END;";
             
             //Execution
             var res = this.Set<T>().FromSqlRaw(sqlQuery, p_V_DATE);
@@ -83,8 +83,8 @@ public async Task<List<ProductPoco>> GetProductsByDates(DateTime dateTime)
 {
     try
     {
-	       await using var context = new ModelContext();
-           var retVal = await context.USP__MD_PRODUCT_GET_Async<ProductPoco>(dateTime);
+	   await using var context = new ModelContext();
+           var retVal = await context.USP__PRODUCT_GET_Async<ProductPoco>(dateTime);
            return retVal.ToList();
      }
      catch (Exception e)

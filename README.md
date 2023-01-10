@@ -2,6 +2,9 @@
 
 # EntityFramework Oracle Core Procedure Generator , a Stored Procedure and UDDT Scaffolder for .Netcore 
 
+Circel-Ci build:
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Motke84/EntityFramework.Oracle.StoreProcedure.Scaffolder/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Motke84/EntityFramework.Oracle.StoreProcedure.Scaffolder/tree/main)
+
 This command line utility has been created to simplify the stored procedures and UDDTs management in .Netcore.
 
 With this tool you can rip Oracle database and get a new partial context files with all the stored procedures methods and another with all UDDTs.
